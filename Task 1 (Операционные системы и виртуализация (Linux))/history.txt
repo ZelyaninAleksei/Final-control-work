@@ -1,0 +1,47 @@
+    1  apt-get upgrade
+    2  sudo apt-get upgrade
+    3  git --v
+    4  su
+    5  sudo -i
+    6  cat > Pets.txt
+    7  cat > PackAnimals.txt
+    8  cat Pets.txt >> PackAnimals.txt
+    9  cat PackAnimals.txt
+   10  mv PackAnimals.txt HumanFriends.txt
+   11  ls
+   12  mkdir Документы/Итоговая Работа/
+   13  mv HumanFriends.txt Документы/Итоговая Работа/
+   14  ls
+   15  mkdir Загрузки/
+   16  cd /etc/apt/sources.list.d/
+   17  clear
+   18  git add ReadMe.md 
+   19  git commit -am "Дополнение ReadMe"
+   20  git config --global user.email "magik.xrenius@gmail.com"
+   21  git config --global user.name "Aleksei Zelyanin"
+   22  git commit -am "Дополнение ReadMe"
+   23  git push
+   24  git config -l
+   25  git push
+   26  sudo apt-get install mysql-server
+   27  ls
+   28  cd Загрузки/
+   29  sudo dpkg -i mysql-apt-config_0.8.29-1_all.deb
+   30  sudo systemctl start mysql.service
+   31  systemctl status mysql.service | grep “active”
+   32  systemctl status mysql.service
+   33  sudo dpkg -i steam-launcher_1.0.0.66_all.deb
+   34  wget -O ~/steam.deb http://media.steampowered.com/client/installer/steam.deb
+   35  sudo dpkg --add-architecture i386
+   36  dpkg -i steam.deb
+   37  sudo dpkg -i steam.deb
+   38  cd ..
+   39  ls
+   40  sudo dpkg -i steam.deb
+   41  apt --fix-broken install
+   42  sudo apt install -f
+   43  sudo dpkg -r steam
+   44  dpkg -l
+   45  sudo dpkg -r steam-launcher
+   46  history
+   47  history>>history.txt
